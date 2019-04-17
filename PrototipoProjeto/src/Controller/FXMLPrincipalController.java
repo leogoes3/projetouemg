@@ -24,7 +24,7 @@ import javafx.stage.Stage;
  *
  * @author Leonardo
  */
-public class FXMLPrincipalController {
+public class FXMLPrincipalController implements Initializable {
 
     @FXML
     private JFXButton mnicadastro;
@@ -41,10 +41,31 @@ public class FXMLPrincipalController {
     
     @FXML
     private Pane pnltela;
+    
+    private int cod = 0;
 
-    /**
-     * Initializes the controller class.
-     */
+    public int getCod() {
+        return cod;
+    }
+
+    public void setCod(int cod) {
+        this.cod = cod;
+    }
+
+    public JFXButton getMnicadastro() {
+        return mnicadastro;
+    }
+
+    public void setMnicadastro(JFXButton mnicadastro) {
+        this.mnicadastro = mnicadastro;
+    }
+ 
+    @Override
+   public void initialize(URL url, ResourceBundle rb) { 
+       
+            
+
+    }  
     
 
        public void sair(){
@@ -75,8 +96,15 @@ public class FXMLPrincipalController {
         
     }
 
-  
-    
+   public void btnConsulta() throws IOException{
+        
+         Pane pnl = FXMLLoader.load(getClass().getResource("/View/FXMLMenuConsultas.fxml"));
+       pnlmnu.getChildren().clear();
+        pnlmnu.getChildren().addAll(pnl);
+        
+        
+    }
+       
     
     }
     

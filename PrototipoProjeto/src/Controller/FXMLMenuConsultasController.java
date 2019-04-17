@@ -5,9 +5,12 @@
  */
 package Controller;
 
+import com.jfoenix.controls.JFXButton;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.layout.Pane;
 
 /**
  * FXML Controller class
@@ -16,9 +19,22 @@ import javafx.fxml.Initializable;
  */
 public class FXMLMenuConsultasController implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
+    @FXML
+    private JFXButton conclientes;
+
+    @FXML
+    private JFXButton concolaboradores;
+
+    @FXML
+    private JFXButton conproduto;
+
+    @FXML
+    private JFXButton contipo;
+
+    @FXML
+    private Pane pnlconsulta;
+    
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

@@ -1,12 +1,19 @@
+.telaprincipal{
+    -fx-background-color: #ffffcc;
+    
+    
+}
 .btnmni{
     
-   -fx-background-color: #cfcfcf;
+   -fx-background-color: #ffffff;
+   -fx-border-color: #cccccc;
+    -fx-border-width: 1px 0.5px 1px 1px;
    
 }
 
 .btnmni:hover{
     
-    -fx-background-color: #b4b4b4;
+    -fx-background-color: #cfcfcf;
     -fx-cursor: hand;
     -fx-border-color: #4949e6;
     -fx-border-width: 0px 0px 3px 0px;
@@ -15,5 +22,29 @@
 
 .background{
     
-    -fx-background-color: #b4b4b4;
+    -fx-background-color: #ffffff;
+}
+
+
+.botoeslogin{
+    -fx-font-family: verdana;
+    -fx-background-color: #0099ff;
+    -fx-background-radius: 30px; 
+}
+.botoeslogin:hover{-fx-background-color: #ffffff;
+    -fx-cursor: hand;}
+
+.txtlogin{
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    
+}
+
+.btnmnu{-fx-background-color: #ffffff;}
+
+.btnmnu:hover{
+    -fx-background-color: #cfcfcf;
+    -fx-cursor: hand;
+    -fx-border-color: #4949e6;
+    -fx-border-width: 0px 0px 3px 0px;
 }
