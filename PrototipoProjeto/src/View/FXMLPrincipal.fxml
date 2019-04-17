@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #c4c4c4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FXMLPrincipalController">
+   <children>
+      <HBox alignment="TOP_RIGHT" layoutX="226.0" prefHeight="65.0" prefWidth="1054.0" style="-fx-background-color: #cfcfcf;">
+         <children>
+            <JFXButton fx:id="mnicadastro" layoutX="220.0" layoutY="10.0" onAction="#btnCadastros" prefHeight="65.0" prefWidth="211.0" styleClass="btnmni" text="CADASTRO">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="mniconsulta" layoutX="1079.0" layoutY="10.0" prefHeight="65.0" prefWidth="211.0" styleClass="btnmni" text="CONSULTA">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="mnirelatorio" layoutX="1079.0" layoutY="10.0" prefHeight="65.0" prefWidth="211.0" styleClass="btnmni" text="RELATÓRIOS">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="mnisobre" layoutX="1079.0" layoutY="10.0" prefHeight="65.0" prefWidth="211.0" styleClass="btnmni" text="SOBRE">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="mnisair" layoutX="1079.0" layoutY="10.0" onAction="#sair" prefHeight="65.0" prefWidth="211.0" styleClass="btnmni" text="SAIR">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font></JFXButton>
+         </children>
+      </HBox>
+      <Pane fx:id="pnlmnu" layoutY="65.0" prefHeight="655.0" prefWidth="226.0" />
+      <Label alignment="CENTER" layoutX="-4.0" prefHeight="66.0" prefWidth="234.0" text="Easy Stock 2.1" underline="true">
+         <font>
+            <Font name="Book Antiqua Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

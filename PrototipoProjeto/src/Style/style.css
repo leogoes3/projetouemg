@@ -1,0 +1,19 @@
+.btnmni{
+    
+   -fx-background-color: #cfcfcf;
+   
+}
+
+.btnmni:hover{
+    
+    -fx-background-color: #b4b4b4;
+    -fx-cursor: hand;
+    -fx-border-color: #4949e6;
+    -fx-border-width: 0px 0px 3px 0px;
+
+}
+
+.background{
+    
+    -fx-background-color: #b4b4b4;
+}
